@@ -1,0 +1,33 @@
+//variables:-containers or named memory spaces to store data //value can change
+//constants value cant be changed
+//identifiers are name to the variables , fuctions
+console.log("hi meru naun mi ni pta");
+const accountId =144553 ;//to define constant values
+let accountEmail="ashishpant.com";
+var accountPassword="12345";
+let accountState;//undefined type if not declared
+/*
+use of semicolon is optional
+let and var are both used to declare variables
+
+let (block-scoped):
+A variable declared with let is only accessible within the block ({}) where it is defined. This makes let safer to use, especially in loops and conditional statements.
+
+var (function-scoped):
+A variable declared with var is accessible throughout the entire function where it's defined, or globally if declared outside a function. It ignores block boundaries (like {}) unless they are part of a function
+
+Use let:
+In modern JavaScript, it's recommended to use let (or const for variables that don’t change) because it reduces the risk of bugs caused by scope issues or accidental re-declarations.
+ */
+accountCity="Dehradun"//possible but not reccomended
+
+/*not allowed 
+accountId=234454   TypeError: Assignment to constant variable.
+console.log(accountId);
+*/
+
+accountEmail="hehhjhjhfsjkdhjkshdf"
+accountPassword="78543878394"
+accountCity="pauri"
+
+console.table([accountEmail,accountPassword,accountCity,accountState])//to print all the logs to console in a tabular format using single line of code
